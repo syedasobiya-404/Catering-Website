@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catering Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f9f9f7] text-gray-900">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-6 py-4 bg-white shadow-md sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-green-600">Gadly</h1>
+    <nav class="hidden md:flex space-x-6">
+      <a href="#home" class="hover:text-green-600">Home</a>
+      <a href="#services" class="hover:text-green-600">Services</a>
+      <a href="#feedback" class="hover:text-green-600">Feedback</a>
+      <a href="#contact" class="hover:text-green-600">Contact</a>
+    </nav>
+    <a href="#booking" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Book Now</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="flex flex-col md:flex-row items-center justify-between px-6 py-16 md:px-20 bg-gray-100">
+    <div class="max-w-xl">
+      <p class="text-green-600 font-semibold">Home Bhote Super</p>
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight mt-3">Best Catering Website</h2>
+      <p class="mt-4 text-gray-600">Enjoy tasty meals with fresh ingredients. Catering services for events, parties, and more.</p>
+      <div class="mt-6 flex space-x-4">
+        <a href="#booking" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">Find an Event</a>
+        <a href="#services" class="bg-gray-200 px-6 py-3 rounded-lg hover:bg-gray-300">Our Options</a>
+      </div>
+    </div>
+    <div class="mt-10 md:mt-0 md:w-1/2">
+      <img src="https://cdn.pixabay.com/photo/2016/11/18/19/00/bread-1836411_1280.jpg" alt="Catering Food" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="px-6 py-16 md:px-20 bg-[#f9fff9]">
+    <h3 class="text-3xl font-bold text-center mb-12">Our Services</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
+      <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <span class="text-green-600 text-3xl">🍴</span>
+        <h4 class="mt-4 font-semibold">Fresh & Healthy</h4>
+        <p class="text-gray-600 mt-2">We prepare meals using organic ingredients.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <span class="text-green-600 text-3xl">🚚</span>
+        <h4 class="mt-4 font-semibold">Fast Delivery</h4>
+        <p class="text-gray-600 mt-2">On-time catering for all events.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <span class="text-green-600 text-3xl">👨‍🍳</span>
+        <h4 class="mt-4 font-semibold">Expert Chefs</h4>
+        <p class="text-gray-600 mt-2">Professional chefs crafting tasty meals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feedback Section -->
+  <section id="feedback" class="px-6 py-16 md:px-20 bg-white">
+    <h3 class="text-3xl font-bold text-center mb-12">Client Feedback</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-[#f9fff9] p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" class="rounded-xl mb-4" alt="Dish 1">
+        <h4 class="font-semibold">Tasty Food</h4>
+        <p class="text-gray-600 mt-2">"The catering service was amazing and the food delicious!"</p>
+      </div>
+      <div class="bg-[#f9fff9] p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" class="rounded-xl mb-4" alt="Dish 2">
+        <h4 class="font-semibold">Great Experience</h4>
+        <p class="text-gray-600 mt-2">"Our guests loved the meals and the fast service."</p>
+      </div>
+      <div class="bg-[#f9fff9] p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" class="rounded-xl mb-4" alt="Dish 3">
+        <h4 class="font-semibold">Highly Recommended</h4>
+        <p class="text-gray-600 mt-2">"Professional staff and wonderful catering experience!"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="booking" class="px-6 py-16 md:px-20 bg-[#f9fff9] flex flex-col md:flex-row items-center justify-between">
+    <div class="max-w-lg">
+      <h3 class="text-3xl font-bold">Book Catering for Your Next Event</h3>
+      <p class="text-gray-600 mt-4">Contact us today to plan your perfect event with delicious food and excellent service.</p>
+      <a href="#contact" class="mt-6 inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">Get Started</a>
+    </div>
+    <img src="https://cdn.pixabay.com/photo/2023/05/29/17/01/hamburger-8026582_1280.jpg" alt="Sandwich" class="mt-10 md:mt-0 md:w-1/2 rounded-2xl shadow-lg">
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-green-700 text-white text-center py-6">
+    <p>© 2025 Gadly Catering | info@gadly.com | +123 456 789</p>
+  </footer>
+
+</body>
+</html>
+
